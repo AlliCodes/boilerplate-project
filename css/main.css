@@ -87,6 +87,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 /*****BASE STYLES*****/
+.content-wrapper {
+  width: 90%;
+  margin: 50px 0;
+}
 
 header,
 footer {
@@ -98,16 +102,23 @@ footer {
 }
 
 /*****HEADER STYLES*****/
+header{
+  padding: 15px, 0;
+}
 
 header .content-wrapper {
 
 display: flex;
 justify-content: center;
+align-items: center;
 flex-flow: row wrap;
+margin: 0;
 
 }
 
-header .header-divider{
+.header-divider{
+  width: 100%;
+  margin: 10px, 0, 20px, 0;
 
 }
 header nav{
@@ -115,10 +126,22 @@ header nav{
   justify-content: space-between;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
+  
 
+}
+header nav ul{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  
 }
 
 /*****MAIN SECTION STYLES*****/
+
+main{
+  justify-content: center;
+}
 
 main .content-wrapper{
 
@@ -139,6 +162,9 @@ main .content-wrapper{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
+  padding: 30px;
+  margin: 20px;
   
 
 }
@@ -147,6 +173,13 @@ main .content-wrapper{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 55%;
+}
+.features p{
+margin: 0;
+justify-content: center;
+align-items: center;
+padding: 20px;
 }
 
 .fontawesome-icon{
@@ -171,6 +204,9 @@ main .content-wrapper{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+.reviews h3{
+  width: 90%;
 }
 /****ABOUT PAGE*****/
 
@@ -216,32 +252,41 @@ faq .content-wrapper{
 
 /*****FOOTER*****/
 
-.footer-content{
+footer{
 
+}
+
+footer .content-wrapper{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 55%;
+  margin: 50px 0;
+}
+
+footer p{
+  margin: 0;
+}
+footer .contact{
+  margin-bottom: 50px;
+}
+
+footer .social-icons{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
-
-.contact{
+footer .social-icons p{
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row wrap;
-}
-
-.social{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
 }
 .copywrite{
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
 }
 
 
