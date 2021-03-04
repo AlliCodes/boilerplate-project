@@ -134,9 +134,11 @@ p {
  
 img {
  font-size: 1.25em;
+ width: 100%;
 }
  
 figure {
+  margin: 0;
  
 }
  
@@ -280,9 +282,12 @@ aside .form{
 
 .hero-area {
 
+  background-image: url('../img/hero.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
-  flex-flow: row wrap;
+  
 }
 
 .hero-area h1 {
@@ -305,17 +310,25 @@ aside .form{
 /*****FEATURES*****/
 
 .features {
+  background-image: url('../img/features.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  width: 55%;
+  
 }
 .features p{
 margin: 0;
 justify-content: center;
 align-items: center;
 padding: 20px;
+}
+.features article{
+width: 55%;
+align-items: center;
+justify-content: center;
 }
 
 .fontawesome-icon{
