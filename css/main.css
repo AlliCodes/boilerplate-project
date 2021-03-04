@@ -173,6 +173,13 @@ header{
   padding: 15px, 0;
   
 }
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
 header .content-wrapper {
 
@@ -550,6 +557,13 @@ input[type=button] {
 header {
 
 }
+header figure {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
 header .content-wrapper {
     width:100%;
@@ -569,6 +583,10 @@ justify-content: space-between;
 }
 
 /* Hero Area */
+
+.hero-area {
+min-height: 600px;
+}
 
 /* Aside */
 aside .content-wrapper {
@@ -608,7 +626,10 @@ justify-content: space-between;
 }
 
 .reviews article div {
-    width:  50%;       
+    width:  45%;       
+}
+.reviews figure{
+  width: 50%;
 }
 
 /* Footer */
