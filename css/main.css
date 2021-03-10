@@ -354,6 +354,14 @@ justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
+
+.features i {
+	font-size: 3.75em;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .reviews{
 
   display: flex;
