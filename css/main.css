@@ -246,6 +246,10 @@ footer .social-icons{
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  margin-top: .8em;
+}
+footer .social-icons p i {
+  font-size: 1.3125em;
 }
 
 footer .social-icons p{
