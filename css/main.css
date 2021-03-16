@@ -359,7 +359,12 @@ justify-content: center;
   
 
 }
-
+.features .features-items { 
+  display: flex;
+ justify-content: center;
+  align-items: center;
+ flex-flow: row wrap;
+}
 .features-item-description{
 
   display: flex;
